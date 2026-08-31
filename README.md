@@ -5,12 +5,12 @@ sized 1536x1024 WebP. Intended for building flyers, ads and social graphics.
 
 ## How to use this library
 
-1. Fetch the machine-readable index: **`manifest.json`**
+1. Fetch the machine-readable index: **`https://josueobando-max.github.io/IMG/manifest.json`**
 2. Filter `images[]` by `category` (or `category_slug`) and read `title` to pick a fitting shot.
 3. Download the image directly from its `file` path (or the `url` field when present).
    Every image is a direct, public, hot-linkable URL - no auth, no redirect.
-4. A flat newline-separated list of every image URL is at **`urls.txt`**.
-   A spreadsheet-friendly index is at **`manifest.csv`**.
+4. A flat newline-separated list of every image URL is at **`https://josueobando-max.github.io/IMG/urls.txt`**.
+   A spreadsheet-friendly index is at **`https://josueobando-max.github.io/IMG/manifest.csv`**.
 
 ### manifest.json image record
 
@@ -25,7 +25,9 @@ sized 1536x1024 WebP. Intended for building flyers, ads and social graphics.
   "original": "ceramic_coating_maintenance_products_used_to_keep_a_car_finish_clean_and_glossy.png",
   "width": 1536,
   "height": 1024,
-  "bytes": 177812
+  "bytes": 177812,
+  "url": "https://josueobando-max.github.io/IMG/images/auto-detailing/ceramic-coating-maintenance-products-used-to-keep-a-car-finish-clean-and-glossy.webp",
+  "thumb_url": "https://josueobando-max.github.io/IMG/thumbs/auto-detailing/ceramic-coating-maintenance-products-used-to-keep-a-car-finish-clean-and-glossy.webp"
 }
 ```
 
